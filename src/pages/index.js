@@ -1,7 +1,7 @@
 import React from "react"
 
 const Home = () => (
-    <form name="Contact Form" method="POST" data-netlify="true" action="/" >
+    <form name="contact" method="POST" data-netlify="true" action="/" >
         <p>
             <label>Your Name: <input type="text" name="name" /></label>
         </p>
