@@ -11,6 +11,6 @@ export default () => <form name="contact" method="POST" data-netlify="true">
   <label>Message: <textarea name="message"></textarea></label>
 </p>
 <p>
-  <button type="submit" onclick="window.open('Ebook-Free.docx')">Send</button>
+  <button type="submit" onclick="window.open('/Ebook-Free.docx')">Send</button>
 </p>
 </form>
