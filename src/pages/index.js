@@ -1,7 +1,7 @@
 import React from "react"
 
 const Home = () => (
-    <form name="Contact Form" method="POST" data-netlify="true" action="Ebook-Free.docx">
+    <form name="Contact Form" method="POST" data-netlify="true" action="/">
       <input type="hidden" name="form-name" value="Contact Form" />
       <div>
         <input type="text" name="name" placeholder="Name"/>
@@ -10,7 +10,7 @@ const Home = () => (
       <div >
         <textarea name="message" placeholder="Mensagem"/>
       </div>
-      <button type="submit">Enviar</button>
+      <button type="submit" onclick="window.open('Ebook-Free.docx')">Enviar</button>
     </form>
 )
 
