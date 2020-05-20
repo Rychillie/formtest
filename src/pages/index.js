@@ -1,6 +1,6 @@
 import React from "react"
 
-export default () => <form name="contact" method="POST" data-netlify="true" action="Ebook-Free.docx">
+export default () => <form name="contact" method="POST" data-netlify="true" download="Ebook-Free.docx">
 <p>
   <label>Your Name: <input type="text" name="name" /></label>
 </p>
